@@ -1,0 +1,45 @@
+html {
+    height: 100%;
+}
+body {
+    min-height: 100%;
+}
+
+.center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#progressbar {
+    width: 22.7vh;
+    height: 22.7vh;
+    background-color: transparent;
+    overflow: hidden;
+    display: inline-block;
+}
+
+#fishcontainer {
+    width: 18.5vh;
+    height: 18.5vh;
+    background-color: rgb(185, 250, 250);
+    border: 1vh solid rgb(138, 200, 200);
+    overflow: hidden;
+}
+
+#fish {
+    position: absolute;
+    width: 5.3vh;
+    height: 5.3vh;
+    transition: all 4s ease-in-out;
+}
+
+#fish svg {
+    width: 5vh;
+    height: 5vh;
+}
+
+.selectedfish {
+    z-index: 10;
+}
